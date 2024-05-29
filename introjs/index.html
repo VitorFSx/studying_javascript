@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        ola
+    </h1>
+    
+    <p>
+        sla
+    </p>
+
+    <script>
+        window.alert("Oi")
+
+        var nome = window.prompt("Qual seu nome ?")
+
+        window.alert("Bem vindo(a) " + nome + " !")
+
+        var n1 = Number( window.prompt("Digite um número:"))
+        var n2 = Number( window.prompt("Digite outro número:"))
+        var soma = n1 + n2
+        //converter mumero pra string String(soma)
+        window.confirm(`A soma entre ${n1} e ${n2} é ${soma}`)
+
+        document.write(`Seu nome, <strong>${nome}</strong> tem ${nome.length} letras.</br>`)
+        document.write(`Seu nome <strong>${nome}</strong> em maiúsculas fica ${nome.toUpperCase()} !<br/>`)
+        document.write(`Seu nome <strong>${nome}</strong> em minúsculas fica ${nome.toLowerCase()}`)
+    </script>
+</body>
+</html>

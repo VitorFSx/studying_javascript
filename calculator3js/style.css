@@ -1,0 +1,16 @@
+#area {
+    background-color: rgb(88, 216, 88);
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+
+div#res {
+    padding: 15px;
+}
